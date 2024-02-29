@@ -15,3 +15,11 @@ export const TransactionList = () => {
     </>
   )
 }
+
+/*
+
+  Changes required:
+
+  update context's state whenever there is a change  in the list of transactions and store that state  to local storage as well.
+  on first render get context state from localstorage and use it to render all other components
+*/
